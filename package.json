@@ -1,0 +1,29 @@
+{
+    "name": "flax-snippets",
+    "displayName": "Flax Snippets",
+    "description": "All snippets you need for Flax Engine development",
+    "version": "1.0.0",
+    "publisher": "sauler",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "keywords": [
+        "flax",
+        "flaxengie",
+        "script",
+        "csharp",
+        "gamedev",
+        "snippet"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "csharp",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

@@ -2,7 +2,7 @@
     "name": "flax-snippets",
     "displayName": "Flax Snippets",
     "description": "All snippets you need for Flax Engine development",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "publisher": "sauler",
     "repository": {
         "type": "git",

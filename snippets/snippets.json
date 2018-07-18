@@ -163,6 +163,37 @@
 			"}"
 		]
 	},
+	"Flax GenericEditor": {
+		"prefix": "GenericEditor",
+		"description": "Flax GenericEditor class template.",
+		"body": [
+			"using FlaxEngine;",
+			"using FlaxEditor.CustomEditors;",
+			"using FlaxEditor.CustomEditors.Editors;",
+			"",
+			"[CustomEditor(typeof($1))]",
+			"public class ${TM_FILENAME_BASE} : GenericEditor {",
+			"\tpublic override void Initialize(LayoutElementsContainer layout) {",
+			"\t\tbase.Initialize(layout);",
+			"\t\t$0",
+			"\t}",
+			"}"
+		]
+	},
+	"Flax CustomEditorWindow": {
+		"prefix": "CustomEditorWindow",
+		"description": "Flax CustomEditorWindow class template.",
+		"body": [
+			"using FlaxEditor;",
+			"using FlaxEditor.CustomEditors;",
+			"",
+			"public class ${TM_FILENAME_BASE} : CustomEditorWindow {",
+			"\tpublic override void Initialize(LayoutElementsContainer layout) {",
+			"\t\t$0",
+			"\t}",
+			"}"
+		]
+	},
 	"Debug Log": {
 		"prefix": "Log",
 		"description": "Flax Debug.Log() method",

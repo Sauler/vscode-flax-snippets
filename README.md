@@ -11,6 +11,10 @@ It takes advantage of Visual Studio Code snippets features such as [snippets tra
 * Game classes:
 	* Script
 
+* Editor classes:
+	* GenericEditor
+	* CustomEditorWindow
+
 * Script Methods:
 	* Awake()
 	* OnEnable()

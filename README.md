@@ -2,7 +2,7 @@
 
 ## Features
 
-All Flax code snippets you need. This extension intends to be the most complete collection of Flax snippets for Visual Studio Code.
+All [Flax](https://flaxengine.com/) code snippets you need. This extension intends to be the most complete collection of Flax snippets for Visual Studio Code.
 
 It takes advantage of Visual Studio Code snippets features such as [snippets transforms](https://code.visualstudio.com/updates/v1_17#_snippet-transforms) to create the code faster for you.
 

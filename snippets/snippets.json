@@ -7,8 +7,8 @@
 			"   $1",
 			"}"
 		]
-    },
-    "Script OnEnable": {
+	},
+	"Script OnEnable": {
 		"prefix": "OnEnable()",
 		"description": "Called when object becomes enabled and active.",
 		"body": [
@@ -16,8 +16,8 @@
 			"   $1",
 			"}"
 		]
-    },
-    "Script OnDisable": {
+	},
+	"Script OnDisable": {
 		"prefix": "OnDisable()",
 		"description": "Called when object becomes disabled and inactive.",
 		"body": [
@@ -25,8 +25,8 @@
 			"   $1",
 			"}"
 		]
-    },
-    "Script OnDestroy": {
+	},
+	"Script OnDestroy": {
 		"prefix": "OnDestroy()",
 		"description": "Called before the object will be destroyed.",
 		"body": [
@@ -34,8 +34,8 @@
 			"   $1",
 			"}"
 		]
-    },
-    "Script Start": {
+	},
+	"Script Start": {
 		"prefix": "Start()",
 		"description": "Called when a script is enabled just before any of the Update methods is called for the first time.",
 		"body": [
@@ -43,8 +43,8 @@
 			"   $1",
 			"}"
 		]
-    },
-    "Script Update": {
+	},
+	"Script Update": {
 		"prefix": "Update()",
 		"description": "Called every frame if object is enabled.",
 		"body": [
@@ -52,8 +52,8 @@
 			"   $1",
 			"}"
 		]
-    },
-    "Script LateUpdate": {
+	},
+	"Script LateUpdate": {
 		"prefix": "LateUpdate()",
 		"description": "Called every frame (after Update) if object is enabled.",
 		"body": [
@@ -70,8 +70,8 @@
 			"    $1",
 			"}"
 		]
-    },
-    "Script OnDebugDraw": {
+	},
+	"Script OnDebugDraw": {
 		"prefix": "OnDebugDraw()",
 		"description": "Called during drawing debug shapes in editor. Use DebugDraw.",
 		"body": [
@@ -79,8 +79,8 @@
 			"    $1",
 			"}"
 		]
-    },
-    "Script OnDebugDrawSelected": {
+	},
+	"Script OnDebugDrawSelected": {
 		"prefix": "OnDebugDrawSelected()",
 		"description": "Called during drawing debug shapes in editor when the object is selected. Use DebugDraw.",
 		"body": [
@@ -88,8 +88,8 @@
 			"    $1",
 			"}"
 		]
-    },
-    "Script OnCollisionEnter": {
+	},
+	"Script OnCollisionEnter": {
 		"prefix": "OnCollisionEnter()",
 		"description": "Called during fixed update when this collider/rigidbody started touching another rigidbody/collider. See also a Collision structure.",
 		"body": [
@@ -97,8 +97,8 @@
 			"    $1",
 			"}"
 		]
-    },
-    "Script OnCollisionStay": {
+	},
+	"Script OnCollisionStay": {
 		"prefix": "OnCollisionStay()",
 		"description": "Called every fixed update when this collider/rigidbody keeps touching another rigidbody/collider. See also a Collision structure.",
 		"body": [
@@ -106,8 +106,8 @@
 			"    $1",
 			"}"
 		]
-    },
-    "Script OnCollisionExit": {
+	},
+	"Script OnCollisionExit": {
 		"prefix": "OnCollisionExit()",
 		"description": "Called during fixed update when this collider/rigidbody ended touching another rigidbody/collider. See also a Collision structure.",
 		"body": [
@@ -115,8 +115,8 @@
 			"    $1",
 			"}"
 		]
-    },
-    "Script OnTriggerEnter": {
+	},
+	"Script OnTriggerEnter": {
 		"prefix": "OnTriggerEnter()",
 		"description": "Called during fixed update when the Collider enters the trigger.",
 		"body": [
@@ -124,8 +124,8 @@
 			"    $1",
 			"}"
 		]
-    },
-    "Script OnTriggerStay": {
+	},
+	"Script OnTriggerStay": {
 		"prefix": "OnTriggerStay()",
 		"description": "Called every fixed update when the Collider keeps touching the trigger.",
 		"body": [
@@ -133,8 +133,8 @@
 			"    $1",
 			"}"
 		]
-    },
-    "Script OnTriggerExit": {
+	},
+	"Script OnTriggerExit": {
 		"prefix": "OnTriggerExit()",
 		"description": "Called during fixed update when the Collider leaves the trigger.",
 		"body": [
@@ -142,8 +142,8 @@
 			"    $1",
 			"}"
 		]
-    },
-    "Script OnJointBreak": {
+	},
+	"Script OnJointBreak": {
 		"prefix": "OnJointBreak()",
 		"description": "Called when joint, that script is attached to, gets broken.",
 		"body": [
@@ -151,19 +151,19 @@
 			"    $1",
 			"}"
 		]
-    },
-    "Flax Script": {
+	},
+	"Flax Script": {
 		"prefix": "Script",
 		"description": "Flax Script class template.",
 		"body": [
-			"using FlaxEngine;;",
+			"using FlaxEngine;",
 			"",
 			"public class ${TM_FILENAME_BASE} : Script {",
 			"\t$0",
 			"}"
 		]
-    },
-    "Debug Log": {
+	},
+	"Debug Log": {
 		"prefix": "Log",
 		"description": "Flax Debug.Log() method",
 		"body": "Debug.Log($0);"

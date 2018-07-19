@@ -2,7 +2,7 @@
     "name": "flax-snippets",
     "displayName": "Flax Snippets",
     "description": "All snippets you need for Flax Engine development",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "publisher": "sauler",
     "repository": {
         "type": "git",
@@ -31,6 +31,11 @@
         "snippet"
     ],
     "homepage": "https://github.com/sauler/vscode-flax-snippets",
+    "icon": "images/Flax.png",
+    "galleryBanner": {
+        "color": "#32489F",
+        "theme": "dark"
+    },
     "contributes": {
         "snippets": [
             {

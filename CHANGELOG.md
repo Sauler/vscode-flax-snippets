@@ -3,6 +3,8 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [1.0.4] - 2018-07-19
+- Add icon and change marketplace banner
 ## [1.0.3] - 2018-07-18
 - Added editor script templates
 - Fix formatting and remove bracket
@@ -17,6 +19,7 @@ All notable changes to this project will be documented in this file.
 
 
 [Unreleased]: https://github.com/sauler/vscode-flax-snippets/tree/master
+[1.0.4]: https://github.com/sauler/vscode-flax-snippets/tree/v1.0.4
 [1.0.3]: https://github.com/sauler/vscode-flax-snippets/tree/v1.0.3
 [1.0.2]: https://github.com/sauler/vscode-flax-snippets/tree/v1.0.2
 [1.0.1]: https://github.com/sauler/vscode-flax-snippets/tree/v1.0.1
